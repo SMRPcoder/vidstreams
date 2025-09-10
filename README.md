@@ -67,8 +67,8 @@ Follow the instructions for your operating system to install FFmpeg.
 ### Installing Project Dependencies
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/SMRPcoder/vidstreams.git
+   cd vidstreams
    ```
 2. Install Node.js dependencies:
    ```bash
