@@ -25,6 +25,7 @@ If you are running this project on **Linux**, please update the `start:dev` scri
 "scripts": {
   "start:dev": "export NODE_ENV=development&&nest start --watch"
 }
+```
 
 ## Installation
 ### Installing FFmpeg
