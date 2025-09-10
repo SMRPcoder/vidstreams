@@ -1,0 +1,51 @@
+##====================================Response===============================##
+
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Connection: close
+Content-Length: 116
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Sep 2025 00:04:29 GMT
+Etag: W/"74-U+tVKhxiyk0Go8/1WePYFH9pyWw"
+X-Powered-By: Express
+X-Ratelimit-Limit: 10
+X-Ratelimit-Remaining: 9
+X-Ratelimit-Reset: 60
+
+{"status":true,"message":"Encoded And Uploaded Successfully!","data":{"uid":"**uuid**"}}
+
+##===================================benchmark====================================## 
+
+I have taken a files of samples from "https://file-examples.com/index.php/sample-video-files/sample-mp4-files/"
+
+--------------------------------------for file size 1.5MB-----------------------------------------
+Response size 433B
+Executed for 3.7s
+Sent at Sep 10, 2025, 05:34 AM
+
+--------------------------------------for file size 3.0MB-----------------------------------------
+Response size 433B
+Executed for 6.3s
+Sent at Sep 10, 2025, 05:37 AM
+
+--------------------------------------for file size 10MB------------------------------------------
+Response size 433B
+Executed for 21.9s
+Sent at Sep 10, 2025, 05:38 AM
+
+--------------------------------------for file size 18MB------------------------------------------
+Response size 433B
+Executed for 49.7s
+Sent at Sep 10, 2025, 05:39 AM
+
+
+##=======================Benchmark Environment====================================##
+
+OS:	Microsoft Windows 10 Home Single Language
+Version: 10.0.19045 Build 19045
+System Type: x64-based PC
+CPU: Intel(R) Core(TM) i3-5005U CPU @ 2.00GHz, 2000 Mhz, 2 Core(s), 2 Logical Processor(s)
+RAM: 8GB
+Disk: SSD
+Node.js: v22.18.0
+FFmpeg: 8.0 (essentials build)
