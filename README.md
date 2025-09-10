@@ -17,6 +17,15 @@ This is a Node.js project that leverages FFmpeg for media processing tasks. The 
 - **npm**: Comes bundled with Node.js.
 - **FFmpeg**: Required for media processing. You must install FFmpeg on your machine as Node.js spawns the FFmpeg binary.
 
+### Linux Users
+
+If you are running this project on **Linux**, please update the `start:dev` script in your `package.json`:
+
+```json
+"scripts": {
+  "start:dev": "export NODE_ENV=development&&nest start --watch"
+}
+
 ## Installation
 ### Installing FFmpeg
 Follow the instructions for your operating system to install FFmpeg.
